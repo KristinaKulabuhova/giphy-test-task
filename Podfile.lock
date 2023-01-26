@@ -1,0 +1,32 @@
+PODS:
+  - Giphy (2.2.2):
+    - libwebp
+  - libwebp (1.2.4):
+    - libwebp/demux (= 1.2.4)
+    - libwebp/mux (= 1.2.4)
+    - libwebp/webp (= 1.2.4)
+  - libwebp/demux (1.2.4):
+    - libwebp/webp
+  - libwebp/mux (1.2.4):
+    - libwebp/demux
+  - libwebp/webp (1.2.4)
+  - SwiftLint (0.50.3)
+
+DEPENDENCIES:
+  - Giphy
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Giphy
+    - libwebp
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Giphy: 18fd77d3a0fe8584bf32d80e59df8e5c0e4215ba
+  libwebp: f62cb61d0a484ba548448a4bd52aabf150ff6eef
+  SwiftLint: 77f7cb2b9bb81ab4a12fcc86448ba3f11afa50c6
+
+PODFILE CHECKSUM: 540e13f0f62c08d8bf9d32201cf52ca146a613ec
+
+COCOAPODS: 1.11.3

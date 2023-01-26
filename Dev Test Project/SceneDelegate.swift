@@ -1,0 +1,22 @@
+//
+//  SceneDelegate.swift
+//  Dev Test Project
+//
+//  Created by Kristina on 26.01.2023.
+//
+
+import UIKit
+
+class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+    var window: UIWindow?
+
+    func scene(_ scene: UIScene, willConnectTo _: UISceneSession, options _: UIScene.ConnectionOptions) {
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+
+        let window = UIWindow(windowScene: windowScene)
+        let navigationController = UINavigationController(rootViewController: MainViewController())
+        window.rootViewController = navigationController
+        self.window = window
+        window.makeKeyAndVisible()
+    }
+}
